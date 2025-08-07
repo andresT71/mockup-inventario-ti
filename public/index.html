@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mockup Inventario TI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Activo</h1>
+    <form id="form-activo">
+      <input type="text" id="serial" placeholder="Número de serie" required>
+      <button type="submit">Generar QR</button>
+    </form>
+    <div id="qr-code"></div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
